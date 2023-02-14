@@ -103,7 +103,7 @@
   }
 }
 .zoom_in {
-  animation-name: zoom_in;
+  animation-name: fade_out;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
