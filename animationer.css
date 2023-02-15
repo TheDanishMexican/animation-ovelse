@@ -98,7 +98,98 @@
 }
 
 @keyframes zoom_in {
+  100% {
+    transform: scale(500%);
+  }
+}
+.fade_out {
+  animation-name: fade_out;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade_out {
   0% {
-    transform: scale(0%);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade_out {
+  animation-name: fade_out;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade_out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade_out {
+  animation-name: fade_out;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade_out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade_in {
+  animation-name: fade_in;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.rotation {
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+.rotation2 {
+  animation-name: rotation2;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation2 {
+  0% {
+    transform: rotate(0deg) translate(100%);
+  }
+  100% {
+    transform: rotate(359deg) translate(100%);
   }
 }
